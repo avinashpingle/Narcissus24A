@@ -90,6 +90,12 @@
 			<groupId>tools.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>3.0.1</version>
+		</dependency><!--
+		https://mvnrepository.com/artifact/com.epam.healenium/healenium-web -->
+		<dependency>
+			<groupId>com.epam.healenium</groupId>
+			<artifactId>healenium-web</artifactId>
+			<version>3.5.7</version>
 		</dependency>
 	</dependencies>
 
