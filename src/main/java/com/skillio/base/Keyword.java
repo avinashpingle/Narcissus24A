@@ -16,6 +16,7 @@ public class Keyword {
 
 	public static void openBrowser(String browserName) {
 		if (browserName.equalsIgnoreCase("chrome")) {
+			
 			driver = new ChromeDriver();
 			LOG.info("Chrome browser is opened");
 		} else if (browserName.equalsIgnoreCase("firefox")) {
