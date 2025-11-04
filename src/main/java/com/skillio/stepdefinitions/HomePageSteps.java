@@ -1,5 +1,7 @@
 package com.skillio.stepdefinitions;
 
+import java.net.MalformedURLException;
+
 import com.skillio.base.Keyword;
 import com.skillio.pages.HomePage;
 
@@ -11,7 +13,7 @@ import io.cucumber.java.en.When;
 public class HomePageSteps {
 
 	@Given("ब्राउज़र खुलेगा और रेड बस की यूआरएल ओपन रहेगी")
-	public void launchAppUrl() {
+	public void launchAppUrl() throws MalformedURLException {
 		Keyword.openBrowser("Firefox");
 		Keyword.launchUrl("https://redbus.in");
 	}
