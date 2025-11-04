@@ -19,8 +19,9 @@
 *.tar.gz
 *.rar
 target/
+allure-results/
+Test-output/
 
->>>>>>> 60a338b458fdedfdc0798a93698b2a83d88553e0
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
